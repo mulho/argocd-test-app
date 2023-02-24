@@ -5,4 +5,4 @@ metadata:
   namespace: {{ .Release.Namespace }}
 data:
   fixedString: {{ .Values.myString }}
-  mutableString: {{ randAlphaNum 5 }}    
+  mutableString: {{ now }}    
